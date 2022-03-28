@@ -208,6 +208,20 @@ header h2 {
     font-weight: normal;
 }
 
+/** Header Menu */
+.header-menu {
+    margin-top: 1em;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+}
+
+.header-menu li {
+    display: inline;
+    margin-right: 1em;
+}
+
 .header-top {
     display: flex;
     flex-wrap: wrap;

@@ -1,0 +1,9 @@
+<ul class="header-menu">
+    {{ range $.Site.Params.Header}}
+        <li>
+            <a {{ printf "href=%q" .url | safeHTMLAttr }} title="{{ humanize .id }}" rel="me">
+                {{ .name }}
+            </a>
+        </li>
+    {{ end }}
+</ul>

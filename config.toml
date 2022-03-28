@@ -1,6 +1,6 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
-title = "Anubis"
+title = "Inspired / (G.K)"
 theme = "anubis"
 paginate = 3
 
@@ -8,14 +8,14 @@ disqusShortname = ""
 googleAnalytics = ""
 
 [author]
-name = "Dmitry Kolosov"
+name = "Gibran Kichlu"
 
 [params]
-author = "Dmitry Kolosov"
-description = "Anubis is a simple minimalist theme for Hugo blog engine."
-dateFormat = "2006-01-02"
+author = "Gibran Kichlu"
+description = "Inspired is my storehouse of ideas, thoughts and possibilities."
+dateFormat = "2022-01-02"
 paginationSinglePost = true
-style = "auto"
+style = "light-without-switcher"
 readMore = false
 readNextPosts = 2
 copyCodeButton = true
@@ -31,12 +31,24 @@ utterancesIssue = "" # optional
 utterancesLabel = "" # optional
 
 [[params.social]]
-id = "docs"
-url = "https://gohugo.io/documentation/"
+id = "linkedin"
+url = "https://www.linkedin.com/in/gibran-k-660a8b57/"
 
 [[params.social]]
 id = "github"
-url = "https://github.com/mitrichius/hugo-theme-anubis"
+url = "https://github.com/gkscloud"
+
+[[params.header]]
+id = "tags"
+name = "Browse Tags"
+url = "/tags/"
+weight = 1
+
+[[params.header]]
+id = "archive"
+name = "Archive"
+url = "/posts/"
+weight = 2
 
 [menu]
 
@@ -47,16 +59,11 @@ url = "/about/"
 weight = 1
 
 [[menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
+name = "Experience"
+identifier = "projects"
+url = "/post/projects/"
 weight = 2
 
-[[menu.main]]
-name = "Archive"
-identifier = "archive"
-url = "/posts/"
-weight = 3
 
 [taxonomies]
 category = "categories"
