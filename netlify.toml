@@ -1,0 +1,15 @@
+[build]
+publish = "public"
+command = "hugo --themesDir=./themes/ --baseURL $URL"
+
+[build.environment]
+HUGO_VERSION = "0.92.0"
+HUGO_THEME = "anubis"
+
+[context.deploy-preview]
+command = "cd exampleSiteMultilingual &&  hugo --themesDir=./themes/ --buildFuture --buildDrafts --baseURL $DEPLOY_PRIME_URL"
+
+[[headers]]
+  for = "/*"
+    [headers.values]
+      Access-Control-Allow-Origin = "*"

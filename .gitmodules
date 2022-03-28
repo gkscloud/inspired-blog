@@ -1,6 +1,0 @@
-[submodule "themes/anubis"]
-	path = themes/anubis
-	url = https://github.com/mitrichius/hugo-theme-anubis.git
-[submodule "hugo-bulma"]
-	path = hugo-bulma
-	url = https://github.com/wayn3h0/hugo-bulma
