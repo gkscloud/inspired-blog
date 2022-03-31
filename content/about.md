@@ -21,23 +21,22 @@ menu:
     weight: 10
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+*Inspired* is my canvas where I go to sort and structure thoughts, ideas and creations with the intention that it may inspire you - the reader who stumbled across this mess - or perhaps, teach you. Possibly even entertain you. However, if you find yourself at the brink of boredom and ready to cross-over, click away immediately. 
 
-Hugo makes use of a variety of open source projects including:
+I am a tech entrepreneur at heart who loves to take on bold ideas that have a meaningful impact. But I wasn't always this way. Had you known me five years ago, you would have met a highly introverted, albeit enthusiastic, fledgling developer who never thought of becoming a founder, joining an incubator, pitching to investors and assuming the role of a Chief Technical Architect. All that changed when I took a leap of faith. 
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+The experience of startup entrepreneurship is like nothing you can ever get in school. The highs, lows, daily challenges, and not-to-mention the constant battle against self-doubt (at least initially :) ) transforms you as a person and helps you build incredible mental fortitude. If you can survive that, you become the embodiment of an "Anything is possible with discipline & persistence" attitude.   
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+If I have your attention this far then let me tell you one thing. Never stop chasing your dreams because of what others tell you. Only you have what it takes to accomplish your dream. So take action, however small, towards it and ask for help along the way. You will find comfort in others like yourself while becoming the best version of you. 
+---
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+As a seasoned developer of 11 years, I enjoy bringing ideas to life with programming tech. To me, programming languages are never a barrier. Rather, I choose the tools that are best for the job. Currently, my experience lies in C#, .Net Core, Python & Typescript. I will be refreshing my knowledge in 
+* GoLang 
+* Ruby-on-Rails
+* and Scala soon  
 
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+On the infrastructure side, my bread'n'butter is AWS but GCP (specifically ML Ops) has my attention next.
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
+If you follow along, you are most welcome to collaborate with me on ideas that you see here.  
 
 

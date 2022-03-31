@@ -36,15 +36,15 @@ url = "https://www.linkedin.com/in/gibran-k-660a8b57/"
 
 [[params.social]]
 id = "github"
-url = "https://github.com/gkscloud"
+url = "https://github.com/gkswhiteboard"
 
-[[params.header]]
+[[params.__header]]
 id = "tags"
 name = "Browse Tags"
 url = "/tags/"
 weight = 1
 
-[[params.header]]
+[[params.__header]]
 id = "archive"
 name = "Archive"
 url = "/posts/"
@@ -53,16 +53,34 @@ weight = 2
 [menu]
 
 [[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
+name = "Latest"
+identifier = "latest"
+url = "/posts/"
 weight = 1
 
 [[menu.main]]
-name = "Experience"
-identifier = "projects"
-url = "/post/projects/"
+name = "Whiteboard"
+identifier = "whiteboard"
+url = "/post/whiteboard/"
 weight = 2
+
+[[menu.main]]
+name = "Experience"
+identifier = "experience"
+url = "/post/experience/"
+weight = 3
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 4
+
+[[menu.main]]
+id = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 5
 
 
 [taxonomies]
